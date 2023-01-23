@@ -1,8 +1,8 @@
 # react-yarn-azure-pipeline
 This is a simple example of azure devops pipeline (in yml) to deploy a react project in azure App service (Windows machine). 
-Let's say we have a react project 
+Let's say we have a react project - 
 
-  - maintained with yarn package management 
+  - is maintained with yarn package management 
   - has .env files in the root (usually .env files are not part of the git repo)
 
 
@@ -115,3 +115,4 @@ steps:
 
 ```
 
+Now the build pipeline is completed which will create a artifact in a .zip file. Go ahead and create a release pipeline and deploy the artifact to an App service. ENJOY!
