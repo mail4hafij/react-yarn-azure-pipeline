@@ -3,7 +3,7 @@ This is a simple example of azure devops pipeline (in yml) to deploy a react pro
 Let's say we have a react project - 
 
   - is maintained with yarn package management 
-  - has .env files in the root (usually .env files are not part of the git repo)
+  - has .env files in the root (usually .env files are not part of a git repo)
 
 
 # step1
