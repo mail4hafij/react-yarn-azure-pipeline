@@ -31,7 +31,7 @@ Let's say we have a react project -
 </configuration>
 ```
 
-Add all those files (.env .env.development .env.production web.config) to azure devops library as secure files.
+Add all those files (.env .env.development .env.production web.config) to azure devops library as secure files. We can download these secure files in the build machine using a DownloadSecureFile@1 pipeline task (yml). This way we are making sure the correct .env file is provided in the build machine before the task yarn build --mode development in the pipeline.
 
 <img src="azure-library.png" />
 
