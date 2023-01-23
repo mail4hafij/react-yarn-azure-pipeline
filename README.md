@@ -31,7 +31,7 @@ Let's say we have a react project -
 </configuration>
 ```
 
-Add all those files (.env .env.development .env.production web.config) to azure devopes library as secure files.
+Add all those files (.env .env.development .env.production web.config) to azure devops library as secure files.
 
 <img src="azure-library.png" />
 
