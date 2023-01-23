@@ -115,4 +115,4 @@ steps:
 
 ```
 
-Now the build pipeline is completed which will create a artifact in a .zip file. Go ahead and create a release pipeline and deploy the artifact to an App service. ENJOY!
+Now the build pipeline is completed which will create a artifact in a .zip file. Go ahead and create a release pipeline and deploy the artifact to an App service. Keep note, secure files can't be edited but you can always re-upload. ENJOY!
